@@ -40,3 +40,10 @@ To make sure that the database was created sucessfully run the following command
 Your terminal should look like the screenshot below and you should see the database you created in the table.
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%205%20Show%20Databases.PNG)
+
+After the database has been created we can now go and give the user that we created in the earlier step full access to the database that we have just created. To do this run the following command:
+`GRANT ALL PRIVILEGES ON *.* TO 'wordpress'@'localhost';`
+
+If the command was run successfully your terminal should look the screenshot below.
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%206%20Grant%20permissions%20to%20DB%20User.PNG)
