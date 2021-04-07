@@ -53,3 +53,16 @@ Now that we have completed the setup of the database and its user we can now go 
 
 
 ## Downloading Wordpress
+
+The first thing we want to do when getting wordpress is to get the latest version. This link is the download link for the latest version of wordpress: `https://wordpress.org/latest.tar.gz`
+
+After we have that link we can now download wordpress onto our Ubuntu machine via the command line. You will want to be inside of your home directory when you are downloading wordpress. The command that you need to run is: `wget https://wordpress.org/latest.tar.gz` If it downloaded correctly your terminal should look like the screenshot below:
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%207%20Downloading%20Wordpress.PNG)
+
+
+
+
+
+
+
