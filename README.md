@@ -85,6 +85,9 @@ The next step is to move all of the contents inside off that wordpress folder to
 
 `sudo mv wordpress/* /var/www/html/ethan.nscctruro.ca/`
 
+To confirm that the files moved to that directory properly we can now switch to that directory by running the following command:
+`cd /var/www/html/ethan.nscctruro.ca`
 
+Once you have switched the that directory we can now perform a long listing of that directory by running the `ll` command. The screenshot below is what it should look like if all of the files moved to the directory properly.
 
-
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2010%20Checking%20wordpress%20moved%20files.PNG)
