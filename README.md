@@ -81,6 +81,9 @@ Your terminal should look like the screenshot below and you should see a wordpre
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%209%20Extracted%20wordpress.PNG)
 
+The next step is to move all of the contents inside off that wordpress folder to where you website file is located in the Ubuntu system. To do this run the following command(if you called your directory something else you need to replace the `ethan.nscctruro.ca` with whatever you nameds the directory):
+
+`sudo mv wordpress/* /var/www/html/ethan.nscctruro.ca/`
 
 
 
