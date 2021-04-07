@@ -179,7 +179,7 @@ Once you are in the Route 53 service that is provided by AWS it should look like
 
 Once you are on the Quick Create Record menu it is very simple to fill out. First we need to fill out the prefix of the website which in this case for my example is ethan2. The next step is to select the record type and for this example we will be using a type A record with an IPV4 address because my publically accessible IP address is an IPV4 address. If you have an IPV6 publically accessible address then you would select the type A record for IPV6 address'. Finally you just need to input your publically accessible IP address whether it is IPV4 or IPV6 and click the "Create Records" button. Now that you have created this record you can remove the entry that you had put in your hosts file on your windows machine and you can now access your website from any modern browser. Note that it may take up to 48 hours for the DNS record to become active depending on which DNS servers your machine uses. The below screenshot is what you record should look like.
 
-
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2021%20Record%20Creation.PNG)
 
 
 
