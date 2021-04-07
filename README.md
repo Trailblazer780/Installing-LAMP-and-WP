@@ -151,4 +151,6 @@ After clicking the "Let's Go" button you will be brought to a page that you need
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2015%20Wordpress%20configuration%20.PNG)
 
+After all of that information has been entered in there correctly we can now click the "Submit" button and you will be brought to a page that looks like this and all you need to do is click the "Run the installation" button.
 
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2016%20Wordpress%20final%20installation.PNG)
