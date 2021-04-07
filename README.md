@@ -143,3 +143,6 @@ We need to add an entry to the hosts file on our windows machine so that we can 
 
 The first thing that we need to do when configuring Wordpress is going to be changing the owner of the directory that we made in earlier steps for the website so that Wordpress can be able to write to files inside of that directory. The easiest way to do this is going to be to run this command that will change the owner of the directory: `sudo chown -R www-data:www-data /var/www/html/ethan.nscctruro.ca`
 
+Now that the permissions are okay and we will not run into any issues we can now access our website via the link that we named it in the config file for apache. In this case the link for this example is ethan.nscctruro.ca and when I access the website in a web browser the following page should come up.
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2014%20initializing%20wordpress.PNG)
