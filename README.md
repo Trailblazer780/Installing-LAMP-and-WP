@@ -133,3 +133,9 @@ To confirm that apache is up and running again we need to run the following comm
 
 ## Add Entry to Hosts File
 
+We need to add an entry to the hosts file on our windows machine so that we can access this website that we have just created and configured to setup the wordpress. The hosts file on a windows machine can be found in this location" `C:\Windows\System32\drivers\etc` You will need to open the hostsfile with a texteditor that has admin persmission so that you can make changes to this file. For this example i am going to be using notepad. If you are doing this on a local machine you are going to want the IP to be 127.0.0.1 if you are doing this with a live version the IP is going to be the publically accessible IP address. In my example I am using my publically accessible IP address. The below screenshot is what your entry in the hosts file should look like.
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2013%20hosts%20file%20entry.PNG)
+
+
+
