@@ -47,3 +47,5 @@ After the database has been created we can now go and give the user that we crea
 If the command was run successfully your terminal should look the screenshot below.
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%206%20Grant%20permissions%20to%20DB%20User.PNG)
+
+Now that we have completed the setup of the database and its user we can now go back to our regular terminal and to do this you simply need to run the command: `exit` and you will be brought back to your Ubuntu terminal.
