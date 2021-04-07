@@ -25,6 +25,6 @@ First we will need to create a user that the database is going to use. To do thi
 
 If the command was run correctly it should look like the screenshot below. Remember that for the user `wordpress` can be substituted with whatever you want in the command. The password can also be substituted with whatever you would like but if this is going to be a publical;ly acessable server you are going to want a more complex password than what I have used in the example.
 
-![alt text]()
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%203%20Create%20Database%20user.PNG)
 
 To create the database that you are going to use with wordpress later on with this documentation you need to run the following command: 
