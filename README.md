@@ -69,6 +69,7 @@ To check and make sure that the file is there you can preform a long listing of 
 ## Setting up Wordpress
 
 The first thing we need to do to setup Wordpress is to create a directory that we can put it in. To do this you can run the following command (You can replace the `ethan.nscctruro.ca` with whatever you would like to call your website):
+
 `sudo mkdir /var/www/html/ethan.nscctruro.ca`
 
 After running that command we can now extract the Wordpress files from the latest.tar.gz file. To do this run the following command:
