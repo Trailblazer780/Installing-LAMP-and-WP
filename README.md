@@ -10,6 +10,7 @@ For this documentation we are using Ubuntu 18.04 Server.
 5. [Configuring Apache](#Configuring-Apache)
 6. [Enabling the website on Apache](#Enabling-the-website-on-Apache)
 7. [Add Entry to Hosts File](#Add-Entry-to-Hosts-File)
+8. [Configuring Wordpress](#Configuring-Wordpress)
 
 
 ## Installing LAMP Stack
@@ -137,5 +138,7 @@ We need to add an entry to the hosts file on our windows machine so that we can 
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2013%20hosts%20file%20entry.PNG)
 
+
+## Configuring Wordpress
 
 
