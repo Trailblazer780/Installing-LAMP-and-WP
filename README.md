@@ -6,6 +6,7 @@ For this documentation we are using Ubuntu 18.04 Server.
 1. [Installing LAMP Stack](#Installing-LAMP-Stack)
 2. [Setting up the Database](#Setting-up-the-Database)
 3. [Downloading Wordpress](#Downloading-Wordpress)
+4. [Setting up Wordpress](#Setting-up-Wordpress)
 
 
 ## Installing LAMP Stack
@@ -64,6 +65,20 @@ To check and make sure that the file is there you can preform a long listing of 
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%208%20Checking%20that%20wordpress%20is%20there.PNG)
 
+
+## Setting up Wordpress
+
+The first thing we need to do to setup Wordpress is to create a directory that we can put it in. To do this you can run the following command (You can replace the `ethan.nscctruro.ca` with whatever you would like to call your website):
+`sudo mkdir /var/www/html/ethan.nscctruro.ca`
+
+After running that command we can now extract the Wordpress files from the latest.tar.gz file. To do this run the following command:
+`sudo tar -xvzf latest.tar.gz`
+
+When it is done extracting you can perform a long listing on your home directory and you will now see that wordpress has been extracted. To do this run the following command: `ll`
+
+Your terminal should look like the screenshot below and you should see a wordpress directory.
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%209%20Extracted%20wordpress.PNG)
 
 
 
