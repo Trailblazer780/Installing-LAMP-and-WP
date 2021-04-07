@@ -7,6 +7,7 @@ For this documentation we are using Ubuntu 18.04 Server.
 2. [Setting up the Database](#Setting-up-the-Database)
 3. [Downloading Wordpress](#Downloading-Wordpress)
 4. [Setting up Wordpress](#Setting-up-Wordpress)
+5. [Configuring Apache](#Configuring-Apache)
 
 
 ## Installing LAMP Stack
@@ -92,3 +93,26 @@ To confirm that the files moved to that directory properly we can now switch to 
 Once you have switched the that directory we can now perform a long listing of that directory by running the `ll` command. The screenshot below is what it should look like if all of the files moved to the directory properly.
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2010%20Checking%20wordpress%20moved%20files.PNG)
+
+
+## Configuring Apache
+
+Now that we have wordpress installed and it is in the website directory the next step we need to take is going to be to setup the Apache configuration so that the website is accessible. First we need to make a copy of the default configuration file to use to setup the website. To do this run the following command:
+
+`sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/ethan.nscctruro.ca.conf`
+
+The next step is to edit the copy we just made and put in our configuration settings for the website. To do this run the following command to edit this configuration: 
+
+`sudo nano /etc/apache2/sites-available/ethan.nscctruro.ca.conf`
+
+The screenshot below shows what it should look like when you first open the configuration file with the command that was used above.
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2011%20Configuring%20apache.PNG)
+
+
+
+
+
+
+
+
