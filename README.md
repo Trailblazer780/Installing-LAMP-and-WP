@@ -60,6 +60,9 @@ After we have that link we can now download wordpress onto our Ubuntu machine vi
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%207%20Downloading%20Wordpress.PNG)
 
+To check and make sure that the file is there you can preform a long listing of your home directory by simply running the `ll` command. The screenshot below is what should be in your home directory if it downloaded properly.
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%208%20Checking%20that%20wordpress%20is%20there.PNG)
 
 
 
