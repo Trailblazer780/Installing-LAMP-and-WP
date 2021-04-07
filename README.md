@@ -8,6 +8,7 @@ For this documentation we are using Ubuntu 18.04 Server.
 3. [Downloading Wordpress](#Downloading-Wordpress)
 4. [Setting up Wordpress](#Setting-up-Wordpress)
 5. [Configuring Apache](#Configuring-Apache)
+6. [Enabling the website on Apache](#Enabling-the-website-on-Apache)
 
 
 ## Installing LAMP Stack
@@ -114,7 +115,18 @@ To configure it we just need to change two things in the configuration file. The
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2012%20After%20Configuration.PNG)
 
 
+## Enabling the website on Apache
 
+Now that we have configured the host file for the website we can now enable the website so that it is accessible. To do this we need to run the following command:
 
+`sudo a2ensite ethan.nscctruro.ca.conf`
+
+Once that command has been run we now need to restart apache for the changes to take effect. To do this we need to run the following command: 
+
+`sudo service apache2 restart`
+
+To confirm that apache is up and running again we need to run the following command: 
+
+`sudo service apache2 status`
 
 
