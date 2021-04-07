@@ -1,6 +1,6 @@
 # Installing-LAMP-and-WP
 This is documentation of installing a LAMP server and deploying Wordpress made by Ethan Farrell
-For this documentation we are using Ubuntu 18.04 Server.
+For this documentation we are using Ubuntu 18.04 Server on an EC2 AWS instance.
 
 # Table of Contents:
 1. [Installing LAMP Stack](#Installing-LAMP-Stack)
