@@ -11,6 +11,7 @@ For this documentation we are using Ubuntu 18.04 Server on an EC2 AWS instance.
 6. [Enabling the website on Apache](#Enabling-the-website-on-Apache)
 7. [Add Entry to Hosts File](#Add-Entry-to-Hosts-File)
 8. [Configuring Wordpress](#Configuring-Wordpress)
+9. [Creating A DNS Record in AWS](#Creating-A-DNS-Record-in-AWS)
 
 
 ## Installing LAMP Stack
@@ -166,6 +167,15 @@ You will then be brought to a page that looks like the screenshot below and you 
 If you have been successful at logging into the new Wordpress website you will now be brought to you main dashboard for the website and it should look like the screenshot provided below.
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2019%20Wordpress%20Dashboard.PNG)
+
+
+## Creating A DNS Record in AWS
+
+Now that you have sucessfully created and deployed a publically accessible Wordpress website using an EC2 instance from AWS it is now time for the final step, creating a DNS record using an AWS service called Route 53.
+
+Once you are in the Route 53 service that is provided by AWS it should look like the screenshot below and all you need to do is click on the "Create Record" button and you will be brought to a new page where you can create the actual DNS record.
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2020%20Creating%20DNS%20Record.PNG)
 
 
 
