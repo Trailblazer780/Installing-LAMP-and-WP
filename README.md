@@ -5,6 +5,7 @@ For this documentation we are using Ubuntu 18.04 Server.
 # Table of Contents:
 1. [Installing LAMP Stack](#Installing-LAMP-Stack)
 2. [Setting up the Database](#Setting-up-the-Database)
+3. [Downloading Wordpress](#Downloading-Wordpress)
 
 
 ## Installing LAMP Stack
@@ -49,3 +50,6 @@ If the command was run successfully your terminal should look the screenshot bel
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%206%20Grant%20permissions%20to%20DB%20User.PNG)
 
 Now that we have completed the setup of the database and its user we can now go back to our regular terminal and to do this you simply need to run the command: `exit` and you will be brought back to your Ubuntu terminal.
+
+
+## Downloading Wordpress
