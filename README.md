@@ -154,3 +154,13 @@ After clicking the "Let's Go" button you will be brought to a page that you need
 After all of that information has been entered in there correctly we can now click the "Submit" button and you will be brought to a page that looks like this and all you need to do is click the "Run the installation" button.
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2016%20Wordpress%20final%20installation.PNG)
+
+Once you run the installation you will be brought to a page that you need to fill out for your admin account on the wordpress website. The page will look like the screenshot below and all you need to do is fill in the required information. Once the required information is filled out click the "Install WordPress" button.
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2017%20Wordpress%20admin%20account.PNG)
+
+You will then be brought to a page that looks like the screenshot below and you just need to log in with the username and password you provided in the previous step.
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2018%20Wordpress%20installed.PNG)
+
+
