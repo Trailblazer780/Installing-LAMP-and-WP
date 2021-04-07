@@ -146,3 +146,9 @@ The first thing that we need to do when configuring Wordpress is going to be cha
 Now that the permissions are okay and we will not run into any issues we can now access our website via the link that we named it in the config file for apache. In this case the link for this example is ethan.nscctruro.ca and when I access the website in a web browser the following page should come up.
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2014%20initializing%20wordpress.PNG)
+
+After clicking the "Let's Go" button you will be brought to a page that you need to fill out so that wordpress can have access to the database we created earlier. You are going to need to provide the name of the database, the username you made for the database and the password associated with that username, since the database and the apache server are running on the same machine we can leave the database host as localhost, and finally we need to make a table prefix for the database which can be anything you want it to be but its best to keep it short and simple. The below screenshot is what it should look like when you have filled in all of the information.
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2015%20Wordpress%20configuration%20.PNG)
+
+
