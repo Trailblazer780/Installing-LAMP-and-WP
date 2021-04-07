@@ -19,3 +19,12 @@ To Install the LAMP stack on Ubuntu you need to run this command below. This com
 The first thing you need to do to set up the database for the lamp server is to run this command: `sudo mysql` so that you can start to configuring things in the database. The below screenshot will show what it should look like if you have accessed the database properly.
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%202%20Setting%20Up%20the%20database.PNG)
+
+First we will need to create a user that the database is going to use. To do this run the following command:
+`CREATE USER 'wordpress'@'localhost' IDENTIFIED BY 'Password123.';`
+
+If the command was run correctly it should look like the screenshot below. Remember that for the user `wordpress` can be substituted with whatever you want in the command. The password can also be substituted with whatever you would like but if this is going to be a publical;ly acessable server you are going to want a more complex password than what I have used in the example.
+
+![alt text]()
+
+To create the database that you are going to use with wordpress later on with this documentation you need to run the following command: 
