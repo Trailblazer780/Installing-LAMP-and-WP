@@ -7,4 +7,7 @@ For this documentation we are using Ubuntu 18.04 Server.
 
 
 ## Installing LAMP Stack
-sudo apt install apache2 mysql-server mysql-client php7.4 php7.4-dev php7.4-mysql
+
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%201%20Installing%20the%20Lamp%20Stack.PNG)
+`sudo apt install apache2 mysql-server mysql-client php7.4 php7.4-dev php7.4-mysql`
