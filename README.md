@@ -109,7 +109,9 @@ The screenshot below shows what it should look like when you first open the conf
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2011%20Configuring%20apache.PNG)
 
+To configure it we just need to change two things in the configuration file. The first one being the `ServerName` which we will set to whatever we called our website. The second thing being the `DocumentRoot` which will be the directory that our website is located in. The screenshow below will show what the configuration should look like after being configured.
 
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2012%20After%20Configuration.PNG)
 
 
 
