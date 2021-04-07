@@ -9,6 +9,7 @@ For this documentation we are using Ubuntu 18.04 Server.
 4. [Setting up Wordpress](#Setting-up-Wordpress)
 5. [Configuring Apache](#Configuring-Apache)
 6. [Enabling the website on Apache](#Enabling-the-website-on-Apache)
+7. [Add Entry to Hosts File](#Add-Entry-to-Hosts-File)
 
 
 ## Installing LAMP Stack
@@ -129,4 +130,6 @@ To confirm that apache is up and running again we need to run the following comm
 
 `sudo service apache2 status`
 
+
+## Add Entry to Hosts File
 
