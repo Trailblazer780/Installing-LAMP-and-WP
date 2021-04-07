@@ -1,0 +1,8 @@
+
+# FOR LOCAL HOSTS
+127.0.0.1 ethan2.nscctruro.ca
+
+
+# FOR PUBLICALLY ACCESSIBLE IP
+# Replace the "x" with the corresponding IP address for the webserver
+x.x.x.x ethan2.nscctruro.ca
