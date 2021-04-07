@@ -27,4 +27,16 @@ If the command was run correctly it should look like the screenshot below. Remem
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%203%20Create%20Database%20user.PNG)
 
-To create the database that you are going to use with wordpress later on with this documentation you need to run the following command: 
+Now that we have created a user that can manage the databases we can now create the database that you are going to use with wordpress later on with this documentation you need to run the following command: 
+`CREATE DATABASE wordpressDB;`
+
+If you created the database correctly your terminal should now look like the following screenshot below:
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%204%20Creating%20Database.PNG)
+
+To make sure that the database was created sucessfully run the following command:
+`SHOW DATABASES;`
+
+Your terminal should look like the screenshot below and you should see the database you created in the table.
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%205%20Show%20Databases.PNG)
