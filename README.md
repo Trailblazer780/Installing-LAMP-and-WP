@@ -163,4 +163,13 @@ You will then be brought to a page that looks like the screenshot below and you 
 
 ![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2018%20Wordpress%20installed.PNG)
 
+If you have been successful at logging into the new Wordpress website you will now be brought to you main dashboard for the website and it should look like the screenshot provided below.
+
+![alt text](https://github.com/Trailblazer780/Installing-LAMP-and-WP/blob/main/Images/Capture%2019%20Wordpress%20Dashboard.PNG)
+
+
+
+
+
+
 
